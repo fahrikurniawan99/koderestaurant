@@ -1,0 +1,18 @@
+.bannerSwiperSlide {
+  width: 100%;
+  aspect-ratio: 16 / 6;
+  background-size: cover;
+}
+
+:global(.swiper-pagination) {
+  position: static !important;
+}
+:global(.swiper-pagination-bullet-active) {
+  background: #22c55e !important;
+}
+
+@media screen and (min-width: 1024px) {
+  .bannerSwiperSlide {
+    width: 80%;
+  }
+}
